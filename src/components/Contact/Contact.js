@@ -27,7 +27,7 @@ const Contact = () => {
     const sendData = async () => {
       try {
         const response = await axios.post(
-          "https://jsonplaceholder.typicode.com/posts",
+          "https://hv25wb.herokuapp.com/api/saveContact",
                     
           formData
           );
